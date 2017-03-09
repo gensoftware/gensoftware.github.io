@@ -291,16 +291,24 @@ section.cta {
     .cta-content {
         position: relative;
         z-index: 1;
-        h2 {
+        h2, h3 {
             margin-top: 0;
             margin-bottom: 25px;
             color: white;
-            max-width: 450px;
             font-size: 50px;
+        }
+        h2 {
+            max-width: 450px;
+        }
+        p {
+            color: #ffffff;
         }
         @media (min-width: 768px) {
             h2 {
                 font-size: 80px;
+            }
+            h3 {
+                font-size: 32px;
             }
         }
     }
