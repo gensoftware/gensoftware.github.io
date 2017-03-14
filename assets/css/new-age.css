@@ -16,6 +16,9 @@
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+#map {
+  height: 20em;
+}
 html,
 body {
   height: 100%;

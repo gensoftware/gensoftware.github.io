@@ -161,18 +161,32 @@
 
     <section id="contact" class="contact">
         <div class="container">
-            <h2>We <i class="fa fa-heart"></i> new friends!</h2>
-            <ul class="list-inline list-social">
-                <li class="social-twitter">
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                </li>
-                <li class="social-facebook">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li class="social-google-plus">
-                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                </li>
-            </ul>
+            <div class="row">
+              <h2>Agende a visita de um de nossos consultores <i class="fa fa-heart"></i></h2>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div id="map"></div>
+              </div>
+              <div class="col-md-6">
+                <div class="info text-left">
+                  <h3>Gensoftware</h3>
+                  <p>Rua Sete de Setembro, 55 - Sala 902<br>Centro - Rio de Janeiro</p>
+                  <p>(21) 3777-0670 | contato@gensoftware.com.br</p>
+                </div>
+                <ul class="list-inline list-social">
+                    <li class="social-twitter">
+                        <a href="https://twitter.com/gensoftware_"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li class="social-facebook">
+                        <a href="https://www.facebook.com/gensoftware"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li class="social-google-plus">
+                        <a href="mailto:contato@gensoftware.com.br"><i class="fa fa-envelope"></i></a>
+                    </li>
+                </ul>
+              </div>
+            </div>
         </div>
     </section>
 
@@ -193,6 +207,11 @@
 
     <!-- Theme JavaScript -->
     <script src="assets/js/new-age.min.js"></script>
+
+    <!-- Google Maps -->
+    <script src="assets/js/map.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-7oMhQTzB01cJHSVMr5Rzd4Ts5a5jg04&callback=initMap">
+    </script>
 
 </body>
 
